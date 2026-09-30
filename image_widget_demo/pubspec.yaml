@@ -1,0 +1,22 @@
+name: image_widget_demo
+description: A Flutter classroom demo of the Image widget and three constructor properties.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/student_profile.png
