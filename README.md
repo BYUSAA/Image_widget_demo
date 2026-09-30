@@ -1,35 +1,35 @@
 # Image Widget Demo
 
-A small Flutter project for a classroom presentation about Flutter's `Image` widget.
+Small Flutter project for a presentation in classroom, about the Flutter widget `Image`.
 
 ## Real-world use case
 
-The app uses an image as a student profile photo. It lets the presenter change three `Image.asset` properties and immediately see the result.
+Student photo is an image of the app. It allows the presenter to alter 3 properties of the `Image.asset` and instantly view the changes.
 
 ## The three properties
 
-1. `width` — controls the image width.
-2. `height` — controls the image height.
-3. `fit` — controls how the image is fitted into the space given to it.
+2. `width` — sets the width of the image.
+2. `height` — sets the height of the image.
+3. `fit`: Specifies the way the image is scaled to fit the cell it is placed in.
 
 ## Run the project
 
-1. Open this folder in Android Studio or VS Code.
-2. Make sure Flutter is installed and configured.
-3. Run `flutter pub get`.
-4. Start an Android emulator or connect an Android device.
+In Android Studio or VS Code, open this folder.
+Ensure that Flutter is installed and configured.
+3. Execute flutter pub get command.
+4. Start an Android Emulator or connect to an Android device.
 5. Run `flutter run`.
 
-The project uses a local image asset, so the demo does not depend on an internet connection.
+It is a local image asset based project, so that the demo will not require internet connection.
 
 ## Presentation demo
 
-Use the sliders to change `width` and `height`. Use the `fit` dropdown to switch between values such as `BoxFit.cover` and `BoxFit.contain`.
+Change `width` and `height` with the sliders. To change the value of fit, use the fit dropdown, for example to use BoxFit.cover.
 
-For the presentation, explain:
-- what the image looks like before changing a property;
-- what changes on screen;
-- why a developer might change that property.
+To explain, for the presentation:
+- the initial value of the property; and
+- any changes which are occurring on the screen;
+- for what reason might a developer want to change that property.
 
 ## Final UI
 
